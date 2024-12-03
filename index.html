@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body class="small-header">
+   
+
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo ">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">  Nandini Bandi</div>
+               </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="resume.html"><i class="fas fa-file"></i> Resume</a></li>
+                        <li><a href="project.html"><i class="fas fa-briefcase"></i> Projects</a></li>
+                        <li><a href="skills.html"><i class="fas fa-tools"></i> Skills</a></li>
+                        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                        <li><a href="education.html"><i class="fa-solid fa-school"></i> Education</a></li>
+                        
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="nanduimg.jpg" alt="profile pic">
+
+                </div>
+                <div class="hero-text">
+                    <h5> Hi I'm <span class="input"></span> </h5>
+                    <h3>Java Full Stack Developer</h3>
+                    <p>
+                        Enthusiastic and detail-oriented MCA graduate with
+                         a strong foundation in computer science and programming.
+                         Adept at developing and implementing software solutions, with a focus on problem-solving and efficiency. Possesses hands-on experience in various programming languages, including Java
+                    </p>
+                    <div class="btn-group">
+                        <a href="Nandini Bandi Resume.pdf" class="btn active" download>Download CV</a>
+                        
+                    </div>
+                    
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/bandi-nandini-a432ba288"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:bandinandini1607@gmail.com?subject=Portfolio%20Inquiry&body=Hello%20Nandini,%0A%0AI%20would%20like%20to%20discuss%20your%20portfolio.">
+                            <i class="fab fa-google"></i></a>
+                             
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.js"></script>
+    <script>
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click",function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+        var typed = new Typed(".input", {
+    strings: ["Nandini Bandi"], 
+    typeSpeed: 70,               
+    backSpeed: 55,  
+    backDelay: 1000,              
+    loop: true                   
+});
+
+    
+   
+
+
+
+    </script>
+    
+</body>
+</html>

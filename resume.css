@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.resume-container {
+    height: 500px;
+    overflow-y: auto;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #222;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+    border-radius: 10px;
+}
+/* Optional: Style scrollbar (for webkit browsers like Chrome) */
+.resume-container::-webkit-scrollbar {
+    width: 3px;
+}
+
+.resume-container::-webkit-scrollbar-track {
+    background: #333; /* Darker background for scrollbar track */
+}
+
+.resume-container::-webkit-scrollbar-thumb {
+    background-color: #4DA8DA; /* Light blue for scrollbar thumb */
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    color: #4DA8DA; /* Light blue for headings */
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+a {
+    color: #4DA8DA; /* Light blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section Headings */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    border-bottom: 2px solid #4DA8DA;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ccc; /* Light gray for subheadings */
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Contact Information */
+.resume-container p strong {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4DA8DA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #357ab7; /* Darker blue on hover */
+}
+
+/* Declaration Text */
+.declaration {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-container {
+        height: 400px;
+        padding: 20px;
+    
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}

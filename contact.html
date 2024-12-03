@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"> 
+
+</head>
+<body class="small-header">
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo ">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">  Nandini Bandi</div>
+               </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="resume.html"><i class="fas fa-file"></i> Resume</a></li>
+                        <li><a href="project.html"><i class="fas fa-briefcase"></i> Projects</a></li>
+                        <li><a href="skills.html"><i class="fas fa-tools"></i> Skills</a></li>
+                        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                        <li><a href="education.html"><i class="fa-solid fa-school"></i> Education</a></li>
+                        
+                    </ul>
+                </nav>
+            </header>
+
+       <div class="contact-container">
+        <h1>Contact Me</h1>
+        <form action="mailto:bandinandini1607@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <a href="index.html" class="btn">Back to Home</a> <!-- Link back to the homepage -->
+    </div>
+    </div>
+    </div>
+</body>
+</html>

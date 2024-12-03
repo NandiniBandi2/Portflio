@@ -1,0 +1,84 @@
+/* Contact Page Styles */
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color:#222;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-container h1 {
+    color: #4DA8DA; /* Light blue heading */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #333; /* Dark input background */
+    color: #fff; /* White text */
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4DA8DA; /* Light blue button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #357ab7; /* Darker blue on hover */
+}
+
+button.btn:focus {
+    outline: none;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+a.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px;
+        margin: 20px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
